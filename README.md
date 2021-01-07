@@ -22,9 +22,11 @@ Welcome to the WP Boilerplate project, built by Success Local. This theme is use
 * Regenerate Thumbnails
 * WordPress Importer
 
+## Installation
+When installing this theme, use WP Pusher.
 
 ## Contributing to wp-boilerplate
-Please ensure that when contributing, you are following coding standards, documentation has been made and that the code is clean and concise. **Push 
+Please ensure that when contributing, you are following coding standards, documentation has been made and that the code is clean and concise.
 
 ## Reporting and Handling of Issues
 Any issue found with the boilerplate should be logged in [Issues](https://github.com/success-local/wp-boilerplate/issues). This will allow us to view all past, present and handle any future issues that we may come across.
