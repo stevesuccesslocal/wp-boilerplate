@@ -1,5 +1,8 @@
 ![successlocal](https://user-images.githubusercontent.com/77098663/103875488-6733dc80-50ca-11eb-9708-de16ae9464f6.png)
 #
+
+[![GitHub issues](https://img.shields.io/github/issues/success-local/wp-boilerplate?style=for-the-badge)](https://github.com/success-local/wp-boilerplate/issues) [![Generic badge](https://img.shields.io/badge/Build-Passing-brightgreen?style=for-the-badge)](https://github.com/success-local/wp-boilerplate)
+
 Welcome to the WP Boilerplate project, built by Success Local. This theme is used as a starting point for each website that is developed by Success Local.
 
 ## Plugin Dependencies
