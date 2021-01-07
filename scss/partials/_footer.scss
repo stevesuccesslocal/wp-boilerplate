@@ -1,0 +1,35 @@
+/* Footer */
+
+footer {
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    li { display: inline-block; }
+  }
+  
+} 
+
+// Floating Message
+.message-box {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  text-decoration: none;
+  background: $color1;
+  color: white;
+  font-size: 1.1em;
+  padding: 10px 20px;
+  border-radius: 200px;
+  border: 2px solid darken($color1, 6); 
+  &:hover { transform: scale(0.9); color: white; }
+  transition: 0.3s ease all;
+} 
+
+// Scroll to top
+.to-top {
+  font-size: 2em;
+  bottom: 20px;
+  i { color: $black; }
+}

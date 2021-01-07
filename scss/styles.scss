@@ -1,0 +1,66 @@
+/*!
+Theme Name: COMPANY NAME HERE
+Theme URI: https://www.successlocal.co.uk
+Author: Success Local Limited
+Author URI: https://www.successlocal.co.uk
+Description: Bespoke WordPress Theme created by Success Local Limited.
+Version: 1.3.1
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: Success Local Limited
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Success Local is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/ 
+*/
+
+// Import Base
+@import "framework/_defaults";
+@import "_variables"; 
+
+// Import Base Helpers
+@import "framework/_mixins";
+@import "framework/_resets";
+@import "framework/_typography";
+@import "framework/_lists";
+@import "framework/_blockquotes";
+@import "framework/_tables";
+@import "framework/_code";
+@import "framework/_forms";
+@import "framework/_buttons"; 
+@import "framework/_grid";
+@import "framework/_cookies"; 
+@import "framework/_helpers"; 
+@media print { @import "framework/_print"; }
+
+// Import Partials 
+@import "partials/_page-builder";
+@import "partials/_main"; 
+@import "partials/_header";
+@import "partials/_footer";
+@import "partials/_forms";
+@import "partials/_news";
+@import "partials/_nav";
+@import "partials/_services"; 
+@import "partials/_testimonials";
+@import "partials/_sidebar";
+@import "partials/_area"; 
+@import "partials/_extensions-plugins"; 
+@import "partials/_case-studies"; 
+
+// Import Packages
+@import "packages/fontawesome/fontawesome"; 
+@import "packages/fontawesome/solid";
+@import "packages/fontawesome/brands";
+@import "packages/animations/animate";
+
+// @import "packages/slickcarousel/slick-theme";
+// @import "packages/slickcarousel/slick";
+
+// @import "packages/owlcarousel/owl.carousel";

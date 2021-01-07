@@ -1,0 +1,1 @@
+jQuery(document).ready(function(){jQuery("header .main-navigation").addClass("js").before('<div id="menu"><i class="fa fa-bars"></i> Menu</div>'),jQuery("#menu").click(function(){jQuery("header .main-navigation").slideToggle({duration:400})}),jQuery(window).resize(function(){window.innerWidth>768&&jQuery("header .main-navigation").removeAttr("style")})});

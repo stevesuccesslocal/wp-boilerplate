@@ -1,0 +1,104 @@
+// ==========================================================================
+// Base – Variables
+// ==========================================================================
+
+// Global Colour
+$color1:                                        #187db0;
+$color2:                                        #ea712c;
+$color3:                                        #59a270;
+$button:                                        $color2;
+
+$black:                                         #333;
+$white:                                         #fff;
+$light-grey:                                    #ededed;
+$dark-grey:                                     #555;
+
+// Global Typography
+$base-background-color:                         #fff;
+$base-font-family:                              "Roboto", sans-serif;
+$base-font-size:                                16;
+$base-line-height:                              22;
+$base-font-weight:                              400;
+$base-font-color:                               #555;
+$base-link-color:                               $color2;
+$base-link-hover-color:                         darken($color2, 8);
+
+// Headings
+$base-heading-font-family:                      "Montserrat", sans-serif;
+$base-h1-font-size:                             34;
+$base-h1-line-height:                           38;
+$base-h1-font-weight:                           700;
+$base-h1-color:                                 #000;
+
+$base-h2-font-size:                             30;
+$base-h2-line-height:                           38;
+$base-h2-font-weight:                           700;
+$base-h2-color:                                 #000;
+
+$base-h3-font-size:                             22;
+$base-h3-line-height:                           28;
+$base-h3-font-weight:                           700;
+$base-h3-color:                                 #000;
+
+$base-h4-font-size:                             18;
+$base-h4-line-height:                           24;
+$base-h4-font-weight:                           700;
+$base-h4-color:                                 #000;
+
+$base-h5-font-size:                             16;
+$base-h5-line-height:                           22;
+$base-h5-font-weight:                           700;
+$base-h5-color:                                 #000;
+
+$base-h6-font-size:                             14;
+$base-h6-line-height:                           20;
+$base-h6-font-weight:                           500;
+$base-h6-color:                                 #000;
+
+// Blockquotes
+$base-blockquote-font-family:                   sans-serif;
+$base-blockquote-font-size:                     22;
+$base-blockquote-line-height:                   28;
+
+// Code
+$base-code-font-family:                         monospace, monospace;
+$base-code-font-size:                           13;
+$base-code-line-height:                         18;
+$base-code-color:                               #000;
+$base-code-background-color:                    transparent;
+$base-code-border-color:                        #d7d7d7;
+
+
+// Grid Alignment
+$grid-alignment:                                left;
+
+$container:                                     100%;
+$container-s:                                   460px;
+$container-m:                                   720px;
+$container-l:                                   960px;
+$container-xl:                                  1400px;
+
+// Grid Gutters
+$grid-gutter:                                   15px;
+$grid-gutter-s:                                 15px;
+$grid-gutter-m:                                 15px;
+$grid-gutter-l:                                 15px;
+$grid-gutter-xl:                                15px;
+
+// Responsive Breakpoints
+$breakpoint-s:                                  ($container-s + 20);
+$breakpoint-m:                                  ($container-m + 20);
+$breakpoint-l:                                  ($container-l + 20);
+$breakpoint-xl:                                 ($container-xl + 20);
+
+// Carousel
+$slick-arrow-color: white;
+$slick-dot-color: black;
+$slick-dot-color-active: $slick-dot-color;
+$slick-prev-character: "\2190";
+$slick-next-character: "\2192";
+$slick-dot-character: "\2022";
+$slick-dot-size: 6px;
+$slick-opacity-default: 0.75;
+$slick-opacity-on-hover: 1;
+$slick-opacity-not-active: 0.25;

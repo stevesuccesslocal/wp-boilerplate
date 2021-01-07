@@ -1,0 +1,17 @@
+/* Forms */
+
+.page-template-contact .site-content h1 {
+    border-bottom: 2px solid $color1;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+}
+
+select#cat { height: 36px; }
+
+
+.site-content .gform_wrapper {
+    margin: 0;
+    ul.gform_fields li.gfield { padding-right: 0; }
+    ul.gfield_checkbox li input[type=checkbox] { margin: -4px 10px 0 !important; }
+    .gform_footer { padding-bottom: 0; }
+}

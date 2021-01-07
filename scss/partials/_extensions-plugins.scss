@@ -1,0 +1,52 @@
+/* Extensions */
+
+// Fixed Header Options
+header.position-both {
+position: fixed;
+left: 0;
+right: 0;
+top: 0;
+z-index: 998;
+}
+header.position-mobile {
+position: fixed;
+left: 0;
+right: 0;
+top: 0;
+z-index: 998;
+@include breakpoint(l) {
+    position: relative;
+}
+}
+header.position-desktop {
+@include breakpoint(l) {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 998;
+}
+}
+
+body#position-mobile {
+
+@include breakpoint(l) {
+    margin-top: 0 !important;
+}
+}
+body#position-desktop {
+@media only screen and (max-width: $breakpoint-l) {
+    margin-top: 0 !important;
+}
+}
+
+// Cookies
+body.page-template-privacy-policy {
+    table {
+        width: 100%;
+        overflow-x: scroll;
+        display: inline-block;
+        background-color: #f7f7f7;
+        margin: 24px 0 20px;
+    }
+}

@@ -1,0 +1,39 @@
+// ==========================================================================
+// Base – Assets
+// ==========================================================================
+
+// Custom Buttons
+.button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  letter-spacing: 1px;
+  cursor:pointer;
+  transition: all .5s;
+  background: transparent;
+  position: relative;
+  background: $button;
+  color: $white;
+  text-decoration: none;
+  display: inline-block;
+  &:focus{
+    outline: none;
+  }
+  &:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 1rem rgba(0, 0,0,.2);
+    color: $white;
+  }
+}
+
+
+// Button Styled as Link
+.button-link {
+  color: $base-link-color;
+  text-decoration: underline;
+  border: 0;
+  background: transparent;
+  padding: 0;
+  &:hover { text-decoration: none; }
+  &:active { outline: 0; }
+}

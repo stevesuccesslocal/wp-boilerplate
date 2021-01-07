@@ -1,0 +1,84 @@
+/* Header */
+  
+header { background: white; }
+
+#menu-header { 
+  @include breakpoint(m) {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: $container-xl;
+  }
+}
+
+// Banner  
+.notice-banner {width:100%;text-align:center;padding:10px;}
+.notice-banner  p {margin:0}
+
+// Logo
+.header__logo { 
+  max-width: 300px; 
+} 
+
+// Shrinking
+%animation { transition: 0.6s ease all; } 
+
+#masthead { 
+  @extend %animation;
+  .shrink-wrap {
+    padding-top: 15px; 
+    padding-bottom: 15px; 
+    @extend %animation;
+    @include breakpoint(m) {
+      padding-top: 30px; 
+      padding-bottom: 30px;
+    }
+    @include breakpoint(l) {
+      padding-top: 40px; 
+      padding-bottom: 40px;
+    } 
+  }
+}
+#masthead.shrink-header {
+  .shrink-wrap {
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    @extend %animation;
+    @include breakpoint(m) {
+      padding-top: 15px; 
+      padding-bottom: 15px;
+    }
+    @include breakpoint(l) {
+      padding-top: 20px; 
+      padding-bottom: 20px;
+    }
+    .header__logo img {
+      width: 80%;
+      @extend %animation;
+    } 
+  }
+  .desktop_menu_section nav ul li a {
+    @include breakpoint(m) {
+      line-height: 50px;
+      height: 50px;
+    }
+  }
+}
+
+.header__logo img {
+  @extend %animation;
+  width: 100%;  
+} 
+
+.desktop_menu_section nav ul li a {
+  @extend %animation;
+    @include breakpoint(m) { 
+      line-height: 70px;
+      height: 70px; 
+    }
+    &:hover {
+      color: $color1; 
+    }
+}
+

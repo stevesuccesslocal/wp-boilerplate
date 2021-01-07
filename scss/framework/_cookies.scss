@@ -1,0 +1,19 @@
+.cookie-banner {
+    width: 100%;
+    max-width: 300px;
+    padding: 20px 20px 0;
+    z-index: 99997;
+    background: $color1;
+    color: white;
+    border-radius: 2px;
+    position: fixed;
+    bottom: 15px;
+    left: 15px;
+      
+    .ie8 & {
+      left: 15px;
+      right: auto;
+      max-width: 300px;
+    }
+    
+  }

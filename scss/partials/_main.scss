@@ -1,0 +1,105 @@
+/* Main */
+
+
+// Border Colours for ghost buttons
+%ghost {
+  background: transparent;
+  border: 2px solid;
+  padding: 8px 20px;
+}
+
+// Section
+section {
+  padding: 40px 0; 
+  @include breakpoint(m){
+    padding: 60px 0; 
+  }
+}
+
+// Cycle Slideshow
+.slider-overlay {
+  @include breakpoint(m) {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(97, 97, 97, 0.4);
+    z-index: 3;
+  }
+}
+.caption-wrap {
+  background: $black;
+  padding: 30px;
+  @include breakpoint(m) {
+    position: absolute;
+    z-index: 997;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: none;
+    padding: 0;
+  }
+  .caption-title {
+    @include breakpoint(l) {
+      font-size: 2.5em;
+    }
+  }
+  .caption-content {
+    @include breakpoint(l) {
+      font-size: 1.2em;
+      line-height: 1.4em;
+      font-weight: 300;
+    }
+  }
+}
+.text-shadow {
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6)
+}
+
+
+// Google Map
+#map iframe { width: 100%; height: 300px; }
+.areas-covered {
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  @include breakpoint(m) {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 333;
+  }
+}
+
+// Image Overlay
+.background-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 333;
+  opacity: 0.8;
+}
+.image-banner {
+  .background-overlay {
+    display: none;
+    @include breakpoint(m) { display: block; }
+  }
+  .caption-wrap { overflow: hidden; }
+}
+
+
+// Sitemap
+.page-template-sitemap #menu-sitemap {
+  columns: 2;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.not-found-icon { 
+  max-width: 100px; 
+  margin-bottom: 10px; 
+} 
